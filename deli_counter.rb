@@ -14,7 +14,7 @@ else
   end
 end
 
-def take_a_number(katz_deli, Ada)
-katz_deli.push(Ada)
-puts "Welcome, Ada. You are number 1 in line"
+def take_a_number(katz_deli, new_customer)
+katz_deli.push("#{new_customer}")
+puts "Welcome, #{new_customer}. You are number #{katz_deli.index + 1} in line"
 end
