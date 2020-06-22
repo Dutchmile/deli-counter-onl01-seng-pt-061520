@@ -25,4 +25,4 @@ def now_serving(katz_deli)
     next_in_line = katz_deli.first
     puts "Currently serving #{next_in_line}."
   else
-    puts "There is nobody waiting to be served!" 
+    puts "There is nobody waiting to be served!"
