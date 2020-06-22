@@ -4,7 +4,7 @@ def line(katz_deli)
 if katz_deli.length >= 1
   current_line = []
   counter = 1
-  katz_deli.each_with_index |customer, index|
+  katz_deli.each_with_index do |customer, index|
   current_line.push("#{index}. #{customer} ")
   counter += 1
 end
