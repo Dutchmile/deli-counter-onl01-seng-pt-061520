@@ -19,3 +19,10 @@ number_in_line = katz_deli.index + 1
 katz_deli.push("#{new_customer}")
 puts "Welcome, #{new_customer}. You are number #{number_in_line + 1} in line"
 end
+
+def now_serving(katz_deli)
+  if katz_deli.length >= 1
+    next_in_line = katz_deli.first
+    puts "Currently serving #{next_in_line}."
+  else
+    puts "There is nobody waiting to be served!" 
