@@ -26,3 +26,5 @@ def now_serving(katz_deli)
     puts "Currently serving #{next_in_line}."
   else
     puts "There is nobody waiting to be served!"
+  end
+  
