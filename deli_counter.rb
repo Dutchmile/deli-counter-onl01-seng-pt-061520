@@ -1,9 +1,14 @@
 katz_deli = []
 
 def line(katz_deli)
-people_in_line = []
-  katz_deli.each_with_index do |customer, index|
-    katz_deli(customer).prepend "(index + 1). "
-    people_in_line.push(customer)
+if katz_deli.length >= 1
+  current_line = []
+  counter = 1
+  katz_deli.each_with_index |customer, index|
+  current_line.push("#{index}. #{customer} ")
+  counter += 1
+end
+else
+  puts "The line is currently empty."
   end
   end
