@@ -15,6 +15,7 @@ else
 end
 
 def take_a_number(katz_deli, new_customer)
+number_in_line = katz_deli.index + 1
 katz_deli.push("#{new_customer}")
-puts "Welcome, #{new_customer}. You are number #{katz_deli.index + 1} in line"
+puts "Welcome, #{new_customer}. You are number #{number_in_line + 1} in line"
 end
