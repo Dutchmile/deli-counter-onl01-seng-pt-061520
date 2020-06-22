@@ -8,7 +8,7 @@ if katz_deli.length >= 1
   current_line.push("#{index}. #{customer} ")
   counter += 1
 end
-puts "The line is currently: current_line.join"
+puts "The line is currently: #{current_line.join}"
 else
   puts "The line is currently empty."
   end
