@@ -5,8 +5,8 @@ if katz_deli.length >= 1
   current_line = []
   counter = 1
   katz_deli.each_with_index do |customer, index|
+    counter += 1
   current_line.push("#{index}. #{customer} ")
-  counter += 1
 end
 puts "The line is currently: #{current_line.join}"
 else
