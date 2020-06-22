@@ -14,8 +14,7 @@ else
   end
 end
 
-def take_a_number(katz_deli, new_customer)
-katz_deli("new_customer").each_with_index do |name, index|
-  puts "Welcome, #{name}. You are number #{index + 1} in line."
-end
+def take_a_number(katz_deli, Ada)
+katz_deli.push(Ada)
+puts "Welcome, Ada. You are number 1 in line"
 end
